@@ -3,17 +3,22 @@ import {
   OrbitControls,
   PerspectiveCamera,
   Html,
+  useProgress,
 } from "@react-three/drei";
 import { Suspense, useEffect, useState } from "react";
 import { Car } from "./Car";
 import { Ground } from "./Ground";
 import { Track } from "./Track";
+import { LoadingManager } from "three";
+
+
+
+
 
 export function Scene() {
+
   const [thirdPerson, setThirdPerson] = useState(false);
   const [cameraPosition, setCameraPosition] = useState([-6, 3.9, 6.21]);
-
-
 
   useEffect(() => {
     function keydownHandler(e) {
@@ -30,9 +35,13 @@ export function Scene() {
   }, [thirdPerson]);
 
   return (
-    <Suspense fallback={<Html center fullscreen>
-      <div>Loading...</div>
-    </Html>}>
+    <Suspense
+      fallback={
+        <Html center fullscreen>
+          <div>Loading...</div>
+        </Html>
+      }
+    >
       <Environment
         files={process.env.PUBLIC_URL + "/textures/envmap.hdr"}
         background={"both"}

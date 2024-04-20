@@ -17,7 +17,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "/3D_Portfolio_website/") {
+    if (location.pathname === "/") {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "auto";
