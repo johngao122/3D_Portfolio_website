@@ -1,6 +1,11 @@
 import "./index.css";
 import { createRoot } from "react-dom/client";
-import { Route, BrowserRouter as Router, Routes, useLocation } from "react-router-dom";
+import {
+  Route,
+  BrowserRouter as Router,
+  Routes,
+  useLocation,
+} from "react-router-dom";
 import { useEffect } from "react";
 import Home from "./Components/Home";
 import About from "./Components/About";
@@ -12,7 +17,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "/") {
+    if (location.pathname === "/3D_Portfolio_website/") {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "auto";
@@ -23,23 +28,23 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/3D_Portfolio_website/" element={<Home />} />
+        <Route path="/3D_Portfolio_website/about" element={<About />} />
+        <Route path="/3D_Portfolio_website/projects" element={<Projects />} />
+        <Route path="/3D_Portfolio_website/contact" element={<Contact />} />
       </Routes>
 
-      {location.pathname === '/' && (
-      <div class="controls">
-        <p>press w a s d to move</p>
-        <p>press k to swap camera</p>
-        <p>press r to reset</p>
-        <p>press arrows for flips</p>
-      </div>
+      {location.pathname === "/" && (
+        <div class="controls">
+          <p>press w a s d to move</p>
+          <p>press k to swap camera</p>
+          <p>press r to reset</p>
+          <p>press arrows for flips</p>
+        </div>
       )}
     </>
   );
-};
+}
 
 createRoot(document.getElementById("root")).render(
   <Router>
