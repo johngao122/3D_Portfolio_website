@@ -16,7 +16,7 @@ const Navbar = () => {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "text-blue-500" : location.pathname !== '/3D_Portfolio_website/' ? "text-black" : "text-white"
+            isActive ? "text-blue-500" : location.pathname !== '/' ? "text-black" : "text-white"
           }
         >
             About
@@ -24,7 +24,7 @@ const Navbar = () => {
         <NavLink
           to="/projects"
           className={({ isActive }) =>
-            isActive ? "text-blue-500" : location.pathname !== '/3D_Portfolio_website/' ? "text-black" : "text-white"
+            isActive ? "text-blue-500" : location.pathname !== '/' ? "text-black" : "text-white"
           }
         >
             Projects
