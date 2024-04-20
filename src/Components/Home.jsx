@@ -35,33 +35,24 @@ function SceneWithLoading() {
 }
 
 const Home = () => {
-  const [message, setMessage] = useState(
-    <>
-      Hi, I am <span className="font-semibold">John</span>👋
-      <br />A student from Singapore
-    </>
-  );
+  const [message, setMessage] = useState("");
   const { active } = useProgress();
-  const [hasLoadedOnce, setHasLoadedOnce] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setMessage(
-        "Feel free to look around the portfolio\nor continue playing around 😊"
+        <>
+          Hi, I am <span className="font-semibold">John</span>👋
+          <br />A student from Singapore
+        </>
       );
     }, 5000);
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    if (!active) {
-      setHasLoadedOnce(true);
-    }
-  }, [active]);
-
   return (
     <section className="w-full h-screen relative">
-      {!hasLoadedOnce && (
+      {!active && message && (
         <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
           <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
             {message}
