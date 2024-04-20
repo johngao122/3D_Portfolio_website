@@ -34,7 +34,7 @@ function App() {
         <Route path="/3D_Portfolio_website/contact" element={<Contact />} />
       </Routes>
 
-      {location.pathname === "/" && (
+      {location.pathname === "/3D_Portfolio_website/" && (
         <div class="controls">
           <p>press w a s d to move</p>
           <p>press k to swap camera</p>
@@ -47,7 +47,7 @@ function App() {
 }
 
 createRoot(document.getElementById("root")).render(
-  <Router>
+  <Router basename="/3D_Portfolio_website">
     <App />
   </Router>
 );
