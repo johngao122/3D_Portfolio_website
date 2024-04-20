@@ -17,7 +17,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "/") {
+    if (location.pathname === "/3D_Portfolio_website/") {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "auto";
@@ -47,7 +47,7 @@ function App() {
 }
 
 createRoot(document.getElementById("root")).render(
-  <Router >
+  <Router basename="/3D_Portfolio_website" >
     <App />
   </Router>
 );
