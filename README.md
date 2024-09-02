@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://johngao122.github.io/3D_Portfolio_website/
 
 ## Available Scripts
 
