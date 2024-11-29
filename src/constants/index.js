@@ -1,4 +1,3 @@
-
 import {
   git,
   github,
@@ -16,7 +15,7 @@ import {
   calculator,
 } from "../icons";
 
-import { coding_lab } from "../images";
+import { coding_lab, dndts, iseclub } from "../images";
 
 export const skills = [
   {
@@ -84,6 +83,18 @@ export const experiences = [
       "Customized assessments, including formative and summative evaluations, to gauge students' understanding of Python and App Inventor concepts, gaining praise from manager.",
     ],
   },
+  {
+    title: "Software Engineer",
+    company_name: "DNDTS Pte Ltd",
+    icon: dndts,
+    iconBG: "#000000",
+    date: "May 2024 - July 2024",
+    points: [
+      "Developed and deployed a Telegram bot to automate and manage HR processes, including leave requests, approvals, and KPI tracking, improving operational efficiency and streamlining workflows.",
+      "Developed an Android app with a batch QR code scanning feature to efficiently register refurbished phones and update their status in a Google Sheets database, improving accuracy and streamlining the process.",
+      "Assisted in the migration of data from Google Sheets to a SQL database, ensuring data integrity and improving database management and scalability.",
+    ],
+  },
 ];
 
 export const socialinks = [
@@ -107,23 +118,33 @@ export const socialinks = [
 export const projects = [
   {
     iconurl: sticky_notes,
-    theme:"btn-back-red",
+    theme: "btn-back-red",
     name: "Sticky Notes",
-    description:"A simple sticky notes app made in react that allows users to create, edit, and delete notes. The app uses local storage to save notes.",
+    description:
+      "A simple sticky notes app made in react that allows users to create, edit, and delete notes. The app uses local storage to save notes.",
     link: "https://johngao122.github.io/sticky-notes-website/",
   },
   {
     iconurl: calculator,
-    theme:"btn-back-green",
+    theme: "btn-back-green",
     name: "Calculator",
-    description:"A simple calculator app made in react that allows users to perform basic arithmetic operations.",
+    description:
+      "A simple calculator app made in react that allows users to perform basic arithmetic operations.",
     link: "https://johngao122.github.io/calculator-deploy/",
   },
   {
-    iconurl:android,
-    theme:"btn-back-blue",
-    name:"LORA-based IoT Sensor and Application",
-    description:"A LORA-based IoT sensor and application that monitors temperature and humidity data and sends it to a cloud server for display in an application via AWS.",
-    link:"https://github.com/johngao122/FypApp"
-  }
+    iconurl: android,
+    theme: "btn-back-blue",
+    name: "LORA-based IoT Sensor and Application",
+    description:
+      "A LORA-based IoT sensor and application that monitors temperature and humidity data and sends it to a cloud server for display in an application via AWS.",
+    link: "https://github.com/johngao122/FypApp",
+  },
+  {
+    iconurl: iseclub,
+    theme: "btn-back-pink",
+    name: "ISE Club Website",
+    description: "A website for ISE Club to promote events and activities.",
+    link: "https://nusiseclub.com/",
+  },
 ];

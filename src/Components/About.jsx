@@ -19,11 +19,12 @@ const About = () => {
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Hard-working and passionate student with a passion for data analytics
-          and operations optimization. Bringing forth a motivated attitude and a
-          variety of skills, able to bring a wide array of skills and able to
-          self-manage during independent projects, as well as lead a productive
-          team to accomplish goals through taking initiative
+          Dedicated and driven student with a strong enthusiasm for data
+          analytics and operations optimization. Demonstrates a proactive
+          approach and a diverse skill set, excelling in both independent
+          projects and collaborative environments. Skilled at leading teams to
+          achieve objectives efficiently through initiative and effective
+          self-management.
         </p>
       </div>
 
