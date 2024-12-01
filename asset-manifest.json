@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/3D_Portfolio_website/static/css/main.ccfd6eaf.css",
-    "main.js": "/3D_Portfolio_website/static/js/main.9039c9aa.js",
+    "main.js": "/3D_Portfolio_website/static/js/main.f6558896.js",
     "static/media/dndts.png": "/3D_Portfolio_website/static/media/dndts.81607b3d0b54f5d08f91.png",
     "static/media/idle.mp3": "/3D_Portfolio_website/static/media/idle.4c76290b3368594e6903.mp3",
     "static/media/high_off.mp3": "/3D_Portfolio_website/static/media/high_off.622c66e2a306b83004ca.mp3",
@@ -16,6 +16,7 @@
     "static/media/low_off.mp3": "/3D_Portfolio_website/static/media/low_off.e5b31d5f6157d30a9e92.mp3",
     "static/media/low_on.mp3": "/3D_Portfolio_website/static/media/low_on.b32b6419597a405d5ebb.mp3",
     "static/media/aws.svg": "/3D_Portfolio_website/static/media/aws.e10a5fecc9dcbf1e029965e719e01e47.svg",
+    "static/media/blog.svg": "/3D_Portfolio_website/static/media/blog.d79547317dafdbb10d763a8b63caf57b.svg",
     "static/media/react.svg": "/3D_Portfolio_website/static/media/react.0a5f825f87af51e0fcaf69fbb494c7d5.svg",
     "static/media/pricewise.svg": "/3D_Portfolio_website/static/media/pricewise.77bc76f4fc75f9ac4d2dc2d78e925763.svg",
     "static/media/typescript.svg": "/3D_Portfolio_website/static/media/typescript.4513c3347dfbd6f85a5e3c4c0eac1b0a.svg",
@@ -50,10 +51,10 @@
     "index.html": "/3D_Portfolio_website/index.html",
     "static/media/arrow.svg": "/3D_Portfolio_website/static/media/arrow.63f801a2f276522a9886e4603b6e5bf1.svg",
     "main.ccfd6eaf.css.map": "/3D_Portfolio_website/static/css/main.ccfd6eaf.css.map",
-    "main.9039c9aa.js.map": "/3D_Portfolio_website/static/js/main.9039c9aa.js.map"
+    "main.f6558896.js.map": "/3D_Portfolio_website/static/js/main.f6558896.js.map"
   },
   "entrypoints": [
     "static/css/main.ccfd6eaf.css",
-    "static/js/main.9039c9aa.js"
+    "static/js/main.f6558896.js"
   ]
 }
