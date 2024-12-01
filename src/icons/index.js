@@ -34,6 +34,7 @@ import android from "./android.svg";
 import microcontroller from "./microcontroller.svg";
 import sticky_notes from "./sticky_notes.svg";
 import calculator from "./calculator.svg";
+import blog from "./blog.svg";
 
 export {
   css,
@@ -72,4 +73,5 @@ export {
   microcontroller,
   sticky_notes,
   calculator,
+  blog,
 };

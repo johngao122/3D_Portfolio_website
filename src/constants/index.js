@@ -13,6 +13,7 @@ import {
   microcontroller,
   sticky_notes,
   calculator,
+  blog,
 } from "../icons";
 
 import { coding_lab, dndts, iseclub } from "../images";
@@ -146,5 +147,13 @@ export const projects = [
     name: "ISE Club Website",
     description: "A website for ISE Club to promote events and activities.",
     link: "https://nusiseclub.com/",
+  },
+  {
+    iconurl: blog,
+    theme: "btn-back-yellow",
+    name: "Blog",
+    description:
+      "A blog website for me to review modules and get things off my chest.",
+    link: "https://mern-blog-kgjf.vercel.app/",
   },
 ];
